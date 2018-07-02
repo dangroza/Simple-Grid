@@ -14,3 +14,8 @@ If you don’t want columns to expand on mobile devices and small screens, simpl
 ## License
 
     Open source under the MIT License.
+
+
+## Example
+Demo here https://codepen.io/dangroza/pen/BVMeXO
+
