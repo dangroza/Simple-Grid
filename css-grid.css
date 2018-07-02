@@ -1,9 +1,6 @@
 /**
-*** SIMPLE GRID
-*** (C) ZACH COLE 2016
+*** CSS GRID
 **/
-
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
 
 /* UNIVERSAL */
 
@@ -16,58 +13,6 @@ body {
   left: 0;
   top: 0;
   font-size: 100%;
-}
-
-/* ROOT FONT STYLES */
-
-* {
-  font-family: 'Lato', Helvetica, sans-serif;
-  color: #333447;
-  line-height: 1.5;
-}
-
-/* TYPOGRAPHY */
-
-h1 {
-  font-size: 2.5rem;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 1.375rem;
-}
-
-h4 {
-  font-size: 1.125rem;
-}
-
-h5 {
-  font-size: 1rem;
-}
-
-h6 {
-  font-size: 0.875rem;
-}
-
-p {
-  font-size: 1.125rem;
-  font-weight: 200;
-  line-height: 1.8;
-}
-
-.font-light {
-  font-weight: 300;
-}
-
-.font-regular {
-  font-weight: 400;
-}
-
-.font-heavy {
-  font-weight: 700;
 }
 
 /* POSITIONING */
@@ -91,12 +36,6 @@ p {
 }
 
 /* ==== GRID SYSTEM ==== */
-
-.container {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .row {
   position: relative;
@@ -182,12 +121,6 @@ p {
   display: none;
 }
 
-@media only screen and (min-width: 33.75em) {  /* 540px */
-  .container {
-    width: 80%;
-  }
-}
-
 @media only screen and (min-width: 45em) {  /* 720px */
   .col-1 {
     width: 4.33%;
@@ -239,12 +172,5 @@ p {
 
   .hidden-sm {
     display: block;
-  }
-}
-
-@media only screen and (min-width: 60em) { /* 960px */
-  .container {
-    width: 75%;
-    max-width: 60rem;
   }
 }
